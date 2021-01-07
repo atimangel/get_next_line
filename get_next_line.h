@@ -6,13 +6,12 @@
 /*   By: snpark <snpark@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/31 14:13:50 by snpark            #+#    #+#             */
-/*   Updated: 2021/01/07 12:11:10 by snpark           ###   ########.fr       */
+/*   Updated: 2021/01/07 15:13:27 by senoi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef _GET_NEXT_LINE_H
 # define _GET_NEXT_LINE_H
-# define BUFFER_SIZE 2
 
 # include <stdlib.h>
 # include <unistd.h>

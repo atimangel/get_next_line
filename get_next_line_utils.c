@@ -6,7 +6,7 @@
 /*   By: snpark <snpark@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/31 15:34:08 by snpark            #+#    #+#             */
-/*   Updated: 2021/01/07 11:57:20 by snpark           ###   ########.fr       */
+/*   Updated: 2021/01/07 17:31:39 by senoi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,8 @@ char	*ft_substr_free_s(char *s, unsigned int start, size_t len)
 		i++;
 	}
 	sub[i] = '\0';
-	free(s);
+	if (s && !*s)
+		free(s);
 	return (sub);
 }
 
